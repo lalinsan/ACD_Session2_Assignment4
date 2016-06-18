@@ -17,7 +17,8 @@ public class DaysOfTheMonthSwitch {
               int numberOfDays = 0; //Stores the Number of Days within a Month
              
               //Initiates the Scanner Instance
-              Scanner sc = new Scanner (System.in);
+              @SuppressWarnings("resource")
+			Scanner sc = new Scanner (System.in);
              
               //Prompts user to enter a Year
               System.out.print("Enter Year : ");
